@@ -148,7 +148,7 @@ In Python, any code that you write in a file will get run when you execute the f
 This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
-```
+```java
 public static void main(String[] args)
 ```
 
