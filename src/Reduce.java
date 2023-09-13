@@ -1,17 +1,19 @@
 public class Reduce {
-    public static void main(String[] args) {
 
+    public static int main(int i) {
         int step = 0;
-        int i = 100;
-        while (i != 0){
-            if (i % 2 == 0){
+        while (i != 0) {
+            if (i % 2 == 0) {
                 i = i / 2;
-            }
-            else {
+            } else {
                 i--;
             }
             step++;
         }
-        System.out.println(step);
+        return step;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(main(100));
     }
 }
